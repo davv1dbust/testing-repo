@@ -16,7 +16,7 @@ jobs:
       - name: Validar que el archivo no esté vacío
         run: |
           # Sustituye 'archivo.txt' por la ruta de tu archivo
-          FILE=archivo.txt
+          FILE=index.txt
           
           if [ ! -f "$FILE" ]; then
             echo "Error: El archivo $FILE no existe."
